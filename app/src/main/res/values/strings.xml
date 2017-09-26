@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ControlePredialMobile</string>
+    <string name="txt_log_nome">Nome</string>
+    <string name="log_nome">Insira seu nome</string>
+    <string name="txt_log_senha">Senha</string>
+    <string name="log_senha">Insira sua senha</string>
+    <string name="list_log_conta">Conta</string>
+    <string-array name="list_log_contas">
+        <item>Síndico</item>
+        <item>Atendente</item>
+        <item>Funcionário</item>
+    </string-array>
+    <string name="btn_log_confirmar">Confirmar</string>
+
+    <string name="view_function_msg"></string>
+    <string name="btn_function_empresa">Empresa</string>
+    <string name="btn_function_usuario">Usuário</string>
+    <string name="btn_function_acesso">Gerar Arquivo de Acesso</string>
+    <string name="btn_function_arcondicionado">Ar Condicionado</string>
+</resources>

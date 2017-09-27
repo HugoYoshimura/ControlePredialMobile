@@ -38,27 +38,16 @@
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="130dp" />
 
-    <Spinner
-        android:id="@+id/spn_log_conta"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txt_log_senha"
-        android:layout_marginTop="36dp"
-        android:entries="@array/list_log_contas"
-        android:layout_alignEnd="@+id/txt_log_senha"
-        android:layout_alignStart="@+id/txt_log_senha" />
-
     <Button
         android:id="@+id/btn_log_confirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/spn_log_conta"
+        android:layout_below="@+id/txt_log_senha"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp"
         android:text="Confirmar"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="389dp"
-        android:onClick="validarLogin"/>
+        tools:layout_editor_absoluteY="389dp"/>
 
 
 
